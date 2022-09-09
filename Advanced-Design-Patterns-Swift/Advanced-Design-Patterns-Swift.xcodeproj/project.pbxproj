@@ -56,15 +56,55 @@
 		13FC17D028CBD3EC00498A59 /* Advanced-Design-Patterns-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				13FC17D128CBD3EC00498A59 /* AppDelegate.swift */,
-				13FC17D328CBD3EC00498A59 /* SceneDelegate.swift */,
-				13FC17D528CBD3EC00498A59 /* ViewController.swift */,
-				13FC17D728CBD3EC00498A59 /* Main.storyboard */,
-				13FC17DA28CBD3F300498A59 /* Assets.xcassets */,
-				13FC17DC28CBD3F300498A59 /* LaunchScreen.storyboard */,
-				13FC17DF28CBD3F300498A59 /* Info.plist */,
+				13FC17E628CBD44C00498A59 /* Modules */,
+				13FC17E928CBD46B00498A59 /* Resources */,
+				13FC17E528CBD43B00498A59 /* Supports */,
 			);
 			path = "Advanced-Design-Patterns-Swift";
+			sourceTree = "<group>";
+		};
+		13FC17E528CBD43B00498A59 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				13FC17DF28CBD3F300498A59 /* Info.plist */,
+				13FC17D128CBD3EC00498A59 /* AppDelegate.swift */,
+				13FC17D328CBD3EC00498A59 /* SceneDelegate.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		13FC17E628CBD44C00498A59 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				13FC17E728CBD44F00498A59 /* Storyboards */,
+				13FC17E828CBD46400498A59 /* ViewController */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		13FC17E728CBD44F00498A59 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				13FC17D728CBD3EC00498A59 /* Main.storyboard */,
+				13FC17DC28CBD3F300498A59 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		13FC17E828CBD46400498A59 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				13FC17D528CBD3EC00498A59 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		13FC17E928CBD46B00498A59 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13FC17DA28CBD3F300498A59 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +329,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RMTY324S26;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Advanced-Design-Patterns-Swift/Info.plist";
+				INFOPLIST_FILE = "Advanced-Design-Patterns-Swift/Supports/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RMTY324S26;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Advanced-Design-Patterns-Swift/Info.plist";
+				INFOPLIST_FILE = "Advanced-Design-Patterns-Swift/Supports/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
